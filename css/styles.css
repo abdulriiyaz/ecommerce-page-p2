@@ -92,7 +92,14 @@ header nav ul li:last-of-type a {
 section.hero {
     position: relative;
 }
-
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
 section.hero img {
     width: 100%;
     height: auto;
